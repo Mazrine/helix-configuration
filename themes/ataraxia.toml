@@ -1,0 +1,93 @@
+"ui.background" = "midnight"
+"ui.help" = "neon-cyan"
+"ui.text" = "neon-cyan"
+"ui.window" = "neon-cyan"
+"ui.cursor" = { fg = "#000000", bg = "neon-cyan" }
+"ui.cursor.primary" = { fg = "#000000", bg = "electric-violet" }
+"ui.cursor.primary.normal" = { fg = "#000000", bg = "neon-cyan" }
+"ui.cursor.primary.insert" = { fg = "#000000", bg = "vivid-green" }
+"ui.cursor.primary.select" = { fg = "#000000", bg = "muted-violet" }
+"ui.cursor.match" = "orchid"
+"ui.popup" = "neon-cyan"
+"ui.selection" = "deep-indigo"
+"ui.selection.primary" = "deep-indigo"
+"ui.virtual" = "eggplant"
+"ui.virtual.whitespace" = "deep-indigo"
+"ui.linenr" = "purple-gray"
+"ui.linenr.selected" = "neon-cyan"
+
+"ui.statusline" = "sky-cyan"
+"ui.statusline.inactive" = "eggplant"
+"ui.statusline.normal" = "neon-cyan"
+"ui.statusline.insert" = "vivid-green"
+"ui.statusline.select" = "muted-violet"
+"ui.statusline.separator" = "neon-cyan"
+
+"ui.bufferline" = "royal-blue"
+"ui.bufferline.active" = "neon-cyan"
+
+"diagnostic.error" = "orchid"
+"diagnostic.warning" = "soft-blue"
+"diagnostic.info" = "sky-cyan"
+"diagnostic.hint" = "neon-cyan"
+
+
+"comment" = "purple-gray" # yes
+"constant" = "soft-blue" # yes
+"string" = "vivid-green" # yes
+constructor = "royal-blue" # yes "-green" # yes
+"variable" = "orchid"
+"function" = "royal-blue"
+"function.builtin" = "royal-blue"
+"function.method" = "royal-blue"
+"function.macro" = "deep-grape"
+"function.special" = "royal-blue"
+"punctuation.special" = "muted-violet"
+"keyword" = "royal-blue"
+"keyword.control" = "royal-blue"
+"keyword.operator" = "royal-blue"
+"keyword.directive" = "royal-blue"
+"keyword.storage" = "deep-grape"
+"keyword.function" = "deep-grape"
+
+"operator" = "royal-blue"
+"type" = "soft-blue"
+"type.builtin" = "soft-blue"
+"type.parameter" = "orchid"
+"type.enum" = "soft-blue"
+"type.enum.variant" = "royal-blue"
+"attribute" = "deep-grape"
+"namespace" = "muted-violet"
+"special" = "cool-sky"
+
+"markup.heading" = "neon-cyan"
+"markup.list" = "amethyst"
+"markup.bold" = "pure-white"
+"markup.italic" = "cool-sky"
+"markup.strikethrough" = "deep-indigo"
+"markup.link.url" = "sky-cyan"
+"markup.link.text" = "orchid"
+"markup.quote" = "muted-violet"
+"markup.raw" = "eggplant"
+
+[palette]
+midnight = "#1c0c28"
+eggplant = "#301b4d"
+deep-indigo = "#432775"
+purple-gray = "#5c3a9e"
+muted-violet = "#7b52c7"
+neon-cyan = "#00D2F7"
+cool-sky = "#59c7ff"
+pure-white = "#ffffff"
+orchid = "#8f45ff"
+soft-blue = "#8AA3FE"
+plum = "#6d4db8"
+vivid-green = "#00D974"
+sky-cyan = "#00ddff"
+royal-blue = "#4264d9"
+electric-violet = "#A600FF"
+amethyst = "#9963ff"
+deep-grape = "#7640cc"
+red = "#ff0000"
+black = "#000000"
+

@@ -1,0 +1,69 @@
+theme = "ataraxia"
+
+[editor]
+bufferline = "multiple"
+color-modes = true
+popup-border = "all"
+end-of-line-diagnostics = "hint"
+
+[editor.statusline]
+left = ["mode"]
+center = ["version-control", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
+right = ["total-line-numbers", "diagnostics", "selections", "register", "position", "file-encoding"]
+separator = "/"
+mode.normal = "(„• ᴗ •„)"
+mode.insert = "(｡•̀ᴗ-)✧☆*:・ﾟ"
+mode.select = "｡ﾟ･ (>﹏<) ･ﾟ｡"
+
+[editor.lsp]
+display-progress-messages = true
+
+# disabled because I think I prefer the block cursor changing color according to the mode
+# [editor.cursor-shape]
+# normal = "block"
+# insert = "bar"
+# select = "underline"
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+"'" = "'"
+
+[editor.auto-save]
+after-delay.enable = true
+after-delay.timeout = 3000
+
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "all"
+nnbsp = "all"
+newline = "none"
+tabpad = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 0
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
