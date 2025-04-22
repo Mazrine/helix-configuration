@@ -6,17 +6,19 @@ color-modes = true
 popup-border = "all"
 end-of-line-diagnostics = "hint"
 
+
 [editor.statusline]
 left = ["mode"]
 center = ["version-control", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
-right = ["total-line-numbers", "diagnostics", "selections", "register", "position", "file-encoding"]
-separator = "/"
+right = ["total-line-numbers", "diagnostics", "selections", "register", "position", "file-encoding", "separator"]
+separator = "▽"
 mode.normal = "(„• ᴗ •„)"
 mode.insert = "(｡•̀ᴗ-)✧☆*:・ﾟ"
 mode.select = "｡ﾟ･ (>﹏<) ･ﾟ｡"
 
 [editor.lsp]
 display-progress-messages = true
+
 
 # disabled because I think I prefer the block cursor changing color according to the mode
 # [editor.cursor-shape]
