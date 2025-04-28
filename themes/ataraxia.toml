@@ -1,8 +1,9 @@
 # ataraxia theme for Helix (｡•̀ᴗ-)✧☆*:・ﾟ
+
+# Author : mazrine <mazrine@protonmail.com>
 # -------------------
 # purple and violet centered with contrasting cyan and green plus some blue shades in the mix, making a mostly cold palette.
 # -------------------
-# Made by: mazrine 
 # if you wanna see my full config, check out https://github.com/Mazrine/helix-configuration it has kaomojis for modes instead of the usual normal / insert etc
 # -------------------
 
@@ -41,13 +42,13 @@ diagnostic = "cool-sky"
 "ui.linenr" = "purple-gray"
 "ui.linenr.selected" = "neon-cyan"
 "ui.statusline" = "sky-cyan"
-"ui.statusline.inactive" = "eggplant"
+"ui.statusline.inactive" = "orchid"
 "ui.statusline.normal" = "neon-cyan"
 "ui.statusline.insert" = "ufo-green"
 "ui.statusline.select" = "muted-violet"
 "ui.statusline.separator" = "neon-cyan"
-"ui.bufferline" = "royal-blue"
-"ui.bufferline.active" = "neon-cyan"
+"ui.bufferline" = { fg = "orchid", bg = "midnight"}
+"ui.bufferline.active" = { fg = "neon-cyan", bg = "midnight"}
 "ui.menu" = "orchid"
 "ui.menu.selected" = "orchid"
 
@@ -119,8 +120,8 @@ diagnostic = "cool-sky"
 
 "markup.heading.1" = "deep-grape"
 "markup.heading.2" = "muted-violet"
-"markup.heading.3" = "purple-gray"
-"markup.heading.4" = "deep-indigo"
+"markup.heading.3" = "orchid"
+"markup.heading.4" = "amethyst"
 "markup.heading.5" = "soft-blue"
 "markup.heading.6" = "cool-sky"
 "markup.heading.marker" = "ufo-green"

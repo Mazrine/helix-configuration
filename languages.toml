@@ -6,19 +6,19 @@ required-root-patterns = ["deno.json", "deno.jsonc"]
 [language-server.wakatime]
 command = "wakatime-ls"
 
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+config = { check = { command = "clippy" }, cargo = { features = "all" } }
+
+
 [[language]]
 name = "markdown"
-language-servers = ["marksman", "wakatime"]
+language-servers = ["marksman", "markdown-oxide", "wakatime"]
 
 [[language]]
 name = "rust"
 language-servers = ["rust-analyzer", "wakatime"]
 
-[language-server.rust-analyzer.config.check]
-command = "clippy"
-
-[language-server.rust-analyzer.config.cargo]
-features = "all"
 
 [[language]]
 name = "nix"
