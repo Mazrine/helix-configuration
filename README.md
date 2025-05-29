@@ -13,6 +13,8 @@ insert mode:
 visual mode:
 ![image](https://github.com/user-attachments/assets/d36f4965-88fa-4ccf-980c-a2eed8d6ac3a)
 ---
+example rust lsp
 ![image](https://github.com/user-attachments/assets/22d24b5f-d083-4cbb-96ed-2514687baaf7)
 ---
+example tailwind lsp
 ![image](https://github.com/user-attachments/assets/183870eb-cabc-4a46-b20a-2198613684a7)
