@@ -39,7 +39,7 @@ language-servers = ["deno-language-server", "wakatime"]
 [[language]]
 name = "tsx"
 file-types = ["tsx"]
-language-servers = ["typescript-language-server", "wakatime", "tailwindcss-ls"]
+language-servers = ["tailwindcss-ls", "typescript-language-server", "wakatime", "tailwindcss-ls"]
 
 [[language]]
 name = "css"
